@@ -1,0 +1,10 @@
+@import './styles';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    @apply bg-blue-950 text-white;
+}

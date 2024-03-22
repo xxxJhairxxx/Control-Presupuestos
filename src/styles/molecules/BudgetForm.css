@@ -1,0 +1,19 @@
+/** @format */
+
+.BudgetForm {
+	@apply space-y-6 my-5 bg-[#2b2182] w-[90%] mx-auto pt-6 pb-10;
+
+	&__input {
+		@apply flex flex-col space-y-5;
+		label {
+			@apply text-2xl font-bold text-center;
+		}
+		input[type='number'] {
+			@apply w-[80%] mx-auto rounded-md bg-white border text-black border-gray-200 p-2;
+		}
+	}
+
+	input[type='submit'] {
+		@apply bg-[#09AFF4] text-[0.8rem] w-[80%] block mx-auto disabled:opacity-40 hover:bg-blue-700 cursor-pointer p-3 rounded-md text-white font-black uppercase;
+	}
+}

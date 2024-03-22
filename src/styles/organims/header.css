@@ -1,0 +1,8 @@
+/** @format */
+
+.Header {
+	@apply bg-blue-600 py-8 max-h-72;
+	&__title {
+		@apply uppercase text-center font-black text-2xl text-white;
+	}
+}
